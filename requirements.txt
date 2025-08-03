@@ -1,17 +1,2 @@
-pyTelegramBotAPI
 python-dotenv
-# Exported from Render on 2025-08-03T14:06:42Z
-services:
-- type: web
-  name: ChatBotConsultant
-  runtime: python
-  repo: https://github.com/krissa0/ChatBotConsultant
-  plan: free
-  envVars:
-  - key: BOT_TOKEN
-    sync: false
-  region: oregon
-  buildCommand: pip install -r requirements.txt
-  startCommand: bash start.sh
-  autoDeployTrigger: commit
-version: "1"
+pyTelegramBotAPI
